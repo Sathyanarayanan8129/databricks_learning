@@ -14,7 +14,7 @@ FROM employees VERSION AS OF 4
 
 -- COMMAND ----------
 
-SELECT * FROM employees@v4
+SELECT * FROM employees@v5
 
 -- COMMAND ----------
 
@@ -95,6 +95,10 @@ VACUUM employees RETAIN 0 HOURS
 
 -- COMMAND ----------
 
+DESCRIBE HISTORY employees
+
+-- COMMAND ----------
+
 SELECT * FROM employees@v1
 
 -- COMMAND ----------
@@ -114,3 +118,7 @@ SELECT * FROM employees
 -- COMMAND ----------
 
 -- MAGIC %fs ls 'dbfs:/user/hive/warehouse/employees'
+
+-- COMMAND ----------
+
+

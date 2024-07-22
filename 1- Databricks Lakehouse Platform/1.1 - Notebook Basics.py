@@ -41,7 +41,7 @@ print("Hello World!")
 
 # COMMAND ----------
 
-# MAGIC %run ../Includes/Setup
+# MAGIC %run /Workspace/Repos/sathya9narayan@gmail.com/databricks_learning/Includes/Setup
 
 # COMMAND ----------
 
@@ -69,6 +69,7 @@ print(files)
 df = spark.read.format('csv')  \
                .options(inferSchema =True,header =True)  \
                .load('dbfs:/databricks-datasets/COVID/covid-19-data/us.csv')
+
 
 # COMMAND ----------
 
