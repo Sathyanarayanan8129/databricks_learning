@@ -1,12 +1,12 @@
 # Databricks notebook source
 # MAGIC %md
 # MAGIC
-# MAGIC ## Lab: Creating Clusters
+# MAGIC ## Creating Clusters
 
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC #### Q1 - Creating a Demo Cluster
+# MAGIC #### Creating a Demo Cluster
 # MAGIC
 # MAGIC Create a cluster with the following configurations:
 # MAGIC
